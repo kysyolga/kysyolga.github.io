@@ -1,0 +1,34 @@
+/*https://www.flaticon.com/*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    font-size: 16px;
+    height: 100%;
+    color: #333;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+button {
+	cursor: pointer;
+	outline: none;
+	font-family: 'Noto Serif SC', serif;
+	transition: all 0.5s;
+    border: none;
+}
+input, textarea {
+    outline: none;
+    transition: all 0.5s;
+    font-family: 'Noto Serif SC', serif;
+}
+ul, ol {
+	list-style: none;
+}
+select {
+    outline: none;
+}
