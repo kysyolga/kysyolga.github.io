@@ -17,18 +17,24 @@ a {
 button {
 	cursor: pointer;
 	outline: none;
-	font-family: 'Noto Serif SC', serif;
+    font-family: 'Philosopher', sans-serif;
 	transition: all 0.5s;
     border: none;
 }
 input, textarea {
     outline: none;
     transition: all 0.5s;
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Philosopher', sans-serif;
 }
 ul, ol {
 	list-style: none;
 }
 select {
     outline: none;
+}
+h5 {
+    line-height: 0.7;
+}
+.clear {
+    clear: both;
 }
