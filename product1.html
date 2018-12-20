@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>BonVivant</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="flex">
+        <a href="index.html"><img src="img/BonVivant_logo_header.png" alt="logo"></a>
+        <ul class="main-menu">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="products.html" class="active">Продукция</a></li>
+          <li><a href="sale.html">Акции</a></li>
+          <li><a href="payment.html">О нас</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        <ul class="head-menu">
+          <li><a href="#"><img src="img/icon/search.svg" alt="icon"></a></li>
+          <li><a href="#"><img src="img/icon/user.svg" alt="icon"></a></li>
+          <li><a href="#"><img src="img/icon/like.svg" alt="icon"></a></li>
+          <li><a href="#"><img src="img/icon/shopping-cart.svg" alt="icon"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="crumbs">
+      <div class="wrap">
+        <a href="index.html">Главная </a><span>/<a href="products.html"> Продукция</a> </span>/ Товар</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="product">
+    <div class="wrap">
+      <div class="product__img">
+        <img src="img/product/product_1.jpg">
+        <div class="product__img-num">1 / 7</div>
+        <ul class="product__img-dotted">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="product__description">
+        <h5 class="product__title">Браслет плетеный</h5>
+        <p class="product__cod">BV 894-18</p>
+        <table class="product_info">
+          <tr>
+            <td>Металл:</td>
+            <td><span>серебро</span></td>
+          </tr>
+          <tr>
+            <td>Камень:</td>
+            <td><span>нету</span></td>
+          </tr>
+          <tr>
+            <td>Плетение:</td>
+            <td><span>панцирное</span></td>
+          </tr>
+          <tr>
+            <td>Проба:</td>
+            <td><span>825 </span><sup>o</sup</td>
+          </tr>
+          <tr>
+            <td>Доставка:</td>
+            <td><span>бесплатная</span></td>
+          </tr>
+          <tr>
+            <td>Страна:</td>
+            <td><span>Германия</span></td>
+          </tr>
+        </table>
+        <p class="price">Цена:<span> 1250 грн</span></p>
+        <form class="product__order">
+          <table>
+            <tr>
+              <td>
+                <input type="number" name="user-quantity" value="1">
+              </td>
+              <td>
+                <select class="product1__size">
+                  <option value="zero" name="size">выбрать размер</option>
+                  <option value="first" name="size">9</option>
+                  <option value="second" name="size">9.5</option>
+                  <option value="third" name="size">10</option>
+                  <option value="fourth" name="size">10.5</option>
+                  <option value="fifth" name="size">11</option>
+                  <option value="sixth" name="size">11.5</option>
+                  <option value="seventh" name="size">12</option>
+                  <option value="eighth" name="size">13</option>
+                  <option value="ninth" name="size">14</option>
+                  <option value="tenth" name="size">15</option>
+                </select>
+              </td>
+              <td>
+                <button type="button">В корзину</button>
+              </td>
+            </tr>
+          </table> 
+        </form>
+      </div>
+      <div class="clear"></div>
+      <div class="warranty">
+        <ul class="warranty__item">
+          <li><a href="myframe_page1.html" target="myframe" class="warranty-active">Гарантия</a></li>
+          <li><a href="myframe_page2.html" target="myframe">Оплата</a></li>
+          <li><a href="myframe_page3.html" target="myframe">Доставка</a></li>
+          <li><a href="myframe_page4.html" target="myframe">Упаковка</a></li>
+        </ul>
+        <iframe src="myframe_page1.html" name="myframe" width="100%" height="270" frameborder="2">Ваш браузер не поддерживает плавающие фреймы</iframe>
+      </div>
+      <div>
+        <div class="feedback">
+          <div class="feedback__img">
+            <img src="img/photo.png">
+          </div>
+          <div class="feedback__text">
+            <h6>Mariya Veselo</h6>
+            <p>Ювелирка от бога! Заходи не пожалеешь! На моей страничке можешь увидеть все изделия, которые я тут преобрела. Подружки завидуют, парни обращают внимание! Спасибочки)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="popular">
+    <div class="wrap">
+      <div class="popular__title"><h4>Популярная продукция</h4></div>
+      <div class="flex popular__box">
+        <img src="img/icon/left-arrow.png" alt="left" class="popular__arrow-left">
+        <img src="img/icon/right-arrow.png" alt="right" class="popular__arrow-right">
+        <div class="product__item">
+            <div class="rel">
+              <p class="code">BV 894-18</p>
+              <a href="product1.html"><img src="img/product.jpg" alt="product"></a>
+              <div class="product__item-hover">
+                <a href="#" class="basket">В корзину</a>
+                <a href="#" class="like">
+                  <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 51.997 51.997" xml:space="preserve"><g> <path d="M51.911,16.242C51.152,7.888,45.239,1.827,37.839,1.827c-4.93,0-9.444,2.653-11.984,6.905
+                      c-2.517-4.307-6.846-6.906-11.697-6.906c-7.399,0-13.313,6.061-14.071,14.415c-0.06,0.369-0.306,2.311,0.442,5.478
+                      c1.078,4.568,3.568,8.723,7.199,12.013l18.115,16.439l18.426-16.438c3.631-3.291,6.121-7.445,7.199-12.014
+                      C52.216,18.553,51.97,16.611,51.911,16.242z M49.521,21.261c-0.984,4.172-3.265,7.973-6.59,10.985L25.855,47.481L9.072,32.25
+                      c-3.331-3.018-5.611-6.818-6.596-10.99c-0.708-2.997-0.417-4.69-0.416-4.701l0.015-0.101C2.725,9.139,7.806,3.826,14.158,3.826
+                      c4.687,0,8.813,2.88,10.771,7.515l0.921,2.183l0.921-2.183c1.927-4.564,6.271-7.514,11.069-7.514
+                      c6.351,0,11.433,5.313,12.096,12.727C49.938,16.57,50.229,18.264,49.521,21.261z"/></g></svg>
+                </a>
+                <a href="#" class="compare">
+                  <svg version="1.1" id="Capa_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.013 512.013" style="enable-background:new 0 0 512.013 512.013;" xml:space="preserve"><g><g><g><path d="M372.653,244.726l22.56,22.56l112-112c6.204-6.241,6.204-16.319,0-22.56l-112-112l-22.56,22.72l84.8,84.64H0.013v32h457.44L372.653,244.726z"/><path d="M512.013,352.086H54.573l84.8-84.64l-22.72-22.72l-112,112c-6.204,6.241-6.204,16.319,0,22.56l112,112l22.56-22.56l-84.64-84.64h457.44V352.086z"/></g></g></g></svg>
+                </a>
+              </div>
+            </div>
+            <p class="product__name">Браслет</p>
+            <p class="product__price">1250грн.</p>  
+        </div>
+        
+        <div class="product__item">
+            <div class="rel">
+              <p class="code">BU 256-18</p>
+              <a href="product2.html"><img src="img/product1.jpg" alt="product"></a>
+              <div class="product__item-hover">
+                <a href="#" class="basket">В корзину</a>
+                <a href="#" class="like">
+                  <svg version="1.1" id="Capa_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 51.997 51.997" xml:space="preserve"><g> <path d="M51.911,16.242C51.152,7.888,45.239,1.827,37.839,1.827c-4.93,0-9.444,2.653-11.984,6.905
+                      c-2.517-4.307-6.846-6.906-11.697-6.906c-7.399,0-13.313,6.061-14.071,14.415c-0.06,0.369-0.306,2.311,0.442,5.478
+                      c1.078,4.568,3.568,8.723,7.199,12.013l18.115,16.439l18.426-16.438c3.631-3.291,6.121-7.445,7.199-12.014
+                      C52.216,18.553,51.97,16.611,51.911,16.242z M49.521,21.261c-0.984,4.172-3.265,7.973-6.59,10.985L25.855,47.481L9.072,32.25
+                      c-3.331-3.018-5.611-6.818-6.596-10.99c-0.708-2.997-0.417-4.69-0.416-4.701l0.015-0.101C2.725,9.139,7.806,3.826,14.158,3.826
+                      c4.687,0,8.813,2.88,10.771,7.515l0.921,2.183l0.921-2.183c1.927-4.564,6.271-7.514,11.069-7.514
+                      c6.351,0,11.433,5.313,12.096,12.727C49.938,16.57,50.229,18.264,49.521,21.261z"/></g></svg>
+                </a>
+                <a href="#" class="compare">
+                    <svg version="1.1" id="Capa_13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.013 512.013" style="enable-background:new 0 0 512.013 512.013;" xml:space="preserve"><g><g><g><path d="M372.653,244.726l22.56,22.56l112-112c6.204-6.241,6.204-16.319,0-22.56l-112-112l-22.56,22.72l84.8,84.64H0.013v32h457.44L372.653,244.726z"/><path d="M512.013,352.086H54.573l84.8-84.64l-22.72-22.72l-112,112c-6.204,6.241-6.204,16.319,0,22.56l112,112l22.56-22.56l-84.64-84.64h457.44V352.086z"/></g></g></g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <p class="product__name">Подвеска</p>
+            <p class="product__price">650грн.</p>
+        </div>
+
+        <div class="product__item">
+            <div class="rel">
+              <p class="code">IV 894-19</p>
+              <a href="product3.html"><img src="img/product2.jpg" alt="product"></a>
+              <div class="product__item-hover">
+                <a href="#" class="basket">В корзину</a>
+                <a href="#" class="like">
+                  <svg version="1.1" id="Capa_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 51.997 51.997" xml:space="preserve"><g> <path d="M51.911,16.242C51.152,7.888,45.239,1.827,37.839,1.827c-4.93,0-9.444,2.653-11.984,6.905
+                      c-2.517-4.307-6.846-6.906-11.697-6.906c-7.399,0-13.313,6.061-14.071,14.415c-0.06,0.369-0.306,2.311,0.442,5.478
+                      c1.078,4.568,3.568,8.723,7.199,12.013l18.115,16.439l18.426-16.438c3.631-3.291,6.121-7.445,7.199-12.014
+                      C52.216,18.553,51.97,16.611,51.911,16.242z M49.521,21.261c-0.984,4.172-3.265,7.973-6.59,10.985L25.855,47.481L9.072,32.25
+                      c-3.331-3.018-5.611-6.818-6.596-10.99c-0.708-2.997-0.417-4.69-0.416-4.701l0.015-0.101C2.725,9.139,7.806,3.826,14.158,3.826
+                      c4.687,0,8.813,2.88,10.771,7.515l0.921,2.183l0.921-2.183c1.927-4.564,6.271-7.514,11.069-7.514
+                      c6.351,0,11.433,5.313,12.096,12.727C49.938,16.57,50.229,18.264,49.521,21.261z"/></g></svg>
+                </a>
+                <a href="#" class="compare">
+                      <svg version="1.1" id="Capa_14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.013 512.013" style="enable-background:new 0 0 512.013 512.013;" xml:space="preserve"><g><g><g><path d="M372.653,244.726l22.56,22.56l112-112c6.204-6.241,6.204-16.319,0-22.56l-112-112l-22.56,22.72l84.8,84.64H0.013v32h457.44L372.653,244.726z"/><path d="M512.013,352.086H54.573l84.8-84.64l-22.72-22.72l-112,112c-6.204,6.241-6.204,16.319,0,22.56l112,112l22.56-22.56l-84.64-84.64h457.44V352.086z"/></g></g></g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <p class="product__name">Серьги</p>
+            <p class="product__price">1560грн.</p>
+        </div>
+
+        <div class="product__item">
+            <div class="rel">
+              <p class="code">EP 894-22</p>
+              <a href="product4.html"><img src="img/product3.jpg" alt="product"></a>
+              <div class="product__item-hover">
+                <a href="#" class="basket">В корзину</a>
+                <a href="#" class="like">
+                  <svg version="1.1" id="Capa_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 51.997 51.997" xml:space="preserve"><g> <path d="M51.911,16.242C51.152,7.888,45.239,1.827,37.839,1.827c-4.93,0-9.444,2.653-11.984,6.905
+                      c-2.517-4.307-6.846-6.906-11.697-6.906c-7.399,0-13.313,6.061-14.071,14.415c-0.06,0.369-0.306,2.311,0.442,5.478
+                      c1.078,4.568,3.568,8.723,7.199,12.013l18.115,16.439l18.426-16.438c3.631-3.291,6.121-7.445,7.199-12.014
+                      C52.216,18.553,51.97,16.611,51.911,16.242z M49.521,21.261c-0.984,4.172-3.265,7.973-6.59,10.985L25.855,47.481L9.072,32.25
+                      c-3.331-3.018-5.611-6.818-6.596-10.99c-0.708-2.997-0.417-4.69-0.416-4.701l0.015-0.101C2.725,9.139,7.806,3.826,14.158,3.826
+                      c4.687,0,8.813,2.88,10.771,7.515l0.921,2.183l0.921-2.183c1.927-4.564,6.271-7.514,11.069-7.514
+                      c6.351,0,11.433,5.313,12.096,12.727C49.938,16.57,50.229,18.264,49.521,21.261z"/></g></svg>
+                </a>
+                <a href="#" class="compare">
+                      <svg version="1.1" id="Capa_6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.013 512.013" style="enable-background:new 0 0 512.013 512.013;" xml:space="preserve"><g><g><g><path d="M372.653,244.726l22.56,22.56l112-112c6.204-6.241,6.204-16.319,0-22.56l-112-112l-22.56,22.72l84.8,84.64H0.013v32h457.44L372.653,244.726z"/><path d="M512.013,352.086H54.573l84.8-84.64l-22.72-22.72l-112,112c-6.204,6.241-6.204,16.319,0,22.56l112,112l22.56-22.56l-84.64-84.64h457.44V352.086z"/></g></g></g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <p class="product__name">Кулон</p>
+            <p class="product__price">555грн.</p>
+        </div>
+
+        <div class="product__item">
+            <div class="rel">
+              <p class="code">UO 985-18</p>
+              <a href="product5.html"><img src="img/product4.jpg" alt="product"></a>
+                <div class="product__item-hover">
+                  <a href="#" class="basket">В корзину</a>
+                  <a href="#" class="like">
+                    <svg version="1.1" id="Capa_7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 51.997 51.997" xml:space="preserve"><g> <path d="M51.911,16.242C51.152,7.888,45.239,1.827,37.839,1.827c-4.93,0-9.444,2.653-11.984,6.905
+                      c-2.517-4.307-6.846-6.906-11.697-6.906c-7.399,0-13.313,6.061-14.071,14.415c-0.06,0.369-0.306,2.311,0.442,5.478
+                      c1.078,4.568,3.568,8.723,7.199,12.013l18.115,16.439l18.426-16.438c3.631-3.291,6.121-7.445,7.199-12.014
+                      C52.216,18.553,51.97,16.611,51.911,16.242z M49.521,21.261c-0.984,4.172-3.265,7.973-6.59,10.985L25.855,47.481L9.072,32.25
+                      c-3.331-3.018-5.611-6.818-6.596-10.99c-0.708-2.997-0.417-4.69-0.416-4.701l0.015-0.101C2.725,9.139,7.806,3.826,14.158,3.826
+                      c4.687,0,8.813,2.88,10.771,7.515l0.921,2.183l0.921-2.183c1.927-4.564,6.271-7.514,11.069-7.514
+                      c6.351,0,11.433,5.313,12.096,12.727C49.938,16.57,50.229,18.264,49.521,21.261z"/></g></svg>
+                  </a>
+                  <a href="#" class="compare">
+                    <svg version="1.1" id="Capa_15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.013 512.013" style="enable-background:new 0 0 512.013 512.013;" xml:space="preserve"><g><g><g><path d="M372.653,244.726l22.56,22.56l112-112c6.204-6.241,6.204-16.319,0-22.56l-112-112l-22.56,22.72l84.8,84.64H0.013v32h457.44L372.653,244.726z"/><path d="M512.013,352.086H54.573l84.8-84.64l-22.72-22.72l-112,112c-6.204,6.241-6.204,16.319,0,22.56l112,112l22.56-22.56l-84.64-84.64h457.44V352.086z"/></g></g></g>
+                    </svg>
+                  </a>
+               </div>
+              </div>
+              <p class="product__name">кулон</p>
+              <p class="product__price">750грн.</p>
+        </div>
+
+        <div class="product__item">
+            <div class="rel">
+              <p class="code">EP 256-125</p>
+              <a href="product6.html"><img src="img/product5.jpg" alt="product"></a>
+              <div class="product__item-hover">
+                <a href="#" class="basket">В корзину</a>
+                <a href="#" class="like">
+                  <svg version="1.1" id="Capa_8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 51.997 51.997" xml:space="preserve"><g> <path d="M51.911,16.242C51.152,7.888,45.239,1.827,37.839,1.827c-4.93,0-9.444,2.653-11.984,6.905
+                      c-2.517-4.307-6.846-6.906-11.697-6.906c-7.399,0-13.313,6.061-14.071,14.415c-0.06,0.369-0.306,2.311,0.442,5.478
+                      c1.078,4.568,3.568,8.723,7.199,12.013l18.115,16.439l18.426-16.438c3.631-3.291,6.121-7.445,7.199-12.014
+                      C52.216,18.553,51.97,16.611,51.911,16.242z M49.521,21.261c-0.984,4.172-3.265,7.973-6.59,10.985L25.855,47.481L9.072,32.25
+                      c-3.331-3.018-5.611-6.818-6.596-10.99c-0.708-2.997-0.417-4.69-0.416-4.701l0.015-0.101C2.725,9.139,7.806,3.826,14.158,3.826
+                      c4.687,0,8.813,2.88,10.771,7.515l0.921,2.183l0.921-2.183c1.927-4.564,6.271-7.514,11.069-7.514
+                      c6.351,0,11.433,5.313,12.096,12.727C49.938,16.57,50.229,18.264,49.521,21.261z"/></g></svg>
+                </a>
+                <a href="#" class="compare">
+                  <svg version="1.1" id="Capa_9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.013 512.013" style="enable-background:new 0 0 512.013 512.013;" xml:space="preserve"><g><g><g><path d="M372.653,244.726l22.56,22.56l112-112c6.204-6.241,6.204-16.319,0-22.56l-112-112l-22.56,22.72l84.8,84.64H0.013v32h457.44L372.653,244.726z"/><path d="M512.013,352.086H54.573l84.8-84.64l-22.72-22.72l-112,112c-6.204,6.241-6.204,16.319,0,22.56l112,112l22.56-22.56l-84.64-84.64h457.44V352.086z"/></g></g></g></svg>
+                </a>
+              </div>
+            </div>
+            <p class="product__name">Кольцо</p>
+            <p class="product__price">1350грн.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="flex info">
+        <div class="info__item">
+          <p class="info__phone">+380994856932</p>
+          <p class="info__phone">+380962356809</p>
+          <p class="info__phone">+380956352410</p>
+        </div>
+        <div class="info__item">
+          <h4 class="title-h4">Покупка</h4>
+          <ul>
+            <li><a href="payment.html#payment">Доставка</a></li>
+            <li><a href="payment.html#payment">Оплата</a></li>
+            <li><a href="contact.html">Возврат/Обмен</a></li>
+            <li><a href="contact.html">Кредит</a></li>
+            <li><a href="contact.html">Упаковка</a></li>
+            <li><a href="contact.html">Проблемы с заказом</a></li>
+          </ul>
+        </div>
+        <div class="info__item">
+          <h4 class="title-h4">Информация</h4>
+          <ul>
+            <li><a href="contact.html">Вопросы и ответы</a></li>
+            <li><a href="#">Ювелирная энциклопедия</a></li>
+            <li><a href="#">Размеры</a></li>
+            <li><a href="#">Список брендов</a></li>
+            <li><a href="contact.html">Список вставок</a></li>
+            <li><a href="contact.html">Отзывы</a></li>
+            <li><a href="contact.html">Корпоративным клиентам</a></li>
+          </ul>
+        </div>
+        <div class="info__item">
+          <h4 class="title-h4">Дополнительно</h4>
+          <ul>
+            <li><a href="contact.html">Подарочные сертификаты</a></li>
+            <li><a href="contact.html">Программа лояльности</a></li>
+            <li><a href="contact.html">Книга жалоб и предложений</a></li>
+            <li><a href="contact.html">Изделия на заказ</a></li>
+            <li><a href="contact.html">Условия заказа</a></li>
+            <li><a href="contact.html">Условия сайта</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex social">
+        <a href="index.html"><img src="img/BonVivant_logo_footer.png" alt="logo"></a>
+        <ul>
+          <li><a href="#"><img src="img/icon/G+.svg" alt="g+"></a></li>
+          <li><a href="#"><img src="img/icon/Facebook.svg" alt="Facebook"></a></li>
+          <li><a href="#"><img src="img/icon/instagram.svg" alt="instagram"></a></li>
+          <li><a href="#"><img src="img/icon/twitter.svg" alt="twitter"></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
