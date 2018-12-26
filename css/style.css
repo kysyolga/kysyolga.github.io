@@ -2,7 +2,8 @@ html, body {
 	font-family: 'Philosopher', sans-serif;
 }
 .wrap {
-    max-width: 1720px;
+	width: 1720px;
+	max-width: 98%;
     margin: 0 auto;
     width: 98%;
 }
@@ -30,6 +31,79 @@ header {
 }
 .main-menu a:hover {
 	border-bottom: 4px solid #23b792;
+}
+.head-menu {
+	position: relative;
+}
+.card-window, .user-window {
+	display: none;
+	position: absolute;
+	top: 90%;
+	padding: 1em;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 15px;
+	border: 1px solid #23b792;
+}
+.card-window {
+	width: 105%;
+	right: 5%;	
+}
+.card-window td, .user-window td {
+	padding: 5px;
+}
+.card-window td:nth-child(1) {
+	font-weight: 700;
+}
+.card-window td:nth-child(3) {
+	color: #8c8a8a;
+}
+.card-window td[colspan="4"], .window-btn {
+	text-align: right;
+}
+.card-window td button, .user-window button {
+	padding: 10px 20px;
+	background: #23b792;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 0.5rem;
+	border: 1px solid #23b792;
+	font-weight: 700;
+}
+.card-window td button:hover, .user-window button:hover {
+	color: #23b792;
+	background: #fff;
+}
+.card-price {
+	color: #23b792;
+	font-weight: 700;
+}
+.user-window {
+	right: 50%;
+}
+.user-window input {
+	border: 1px solid #8c8a8a;
+	padding: 5px;
+	color: #333;
+}
+.user-window input:focus {
+	border: 1px solid #111;
+}
+.search-window {
+	display: none;
+	position: absolute;
+	padding: 1em;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 20px;
+	border: 1px solid #23b792;
+	top: 0%;
+	right: 97%;
+	margin: 0.5rem 0;
+	width: 170px;
+}
+.head-menu li:hover .card-window,
+.head-menu li:hover .user-window,
+.head-menu li:hover .search-window {
+	display: block;
 }
 .head-menu a {
 	margin: 0 0.5em;
@@ -96,8 +170,10 @@ h1 {
 }
 .product-box {
 	flex-wrap: wrap;
-	max-width: 1100px;
+	width: 1100px;
+	max-width: 100%;
 	margin: 2em auto;
+	box-sizing: border-box;
 }
 .product__item {
 	max-width: 23%;
@@ -940,19 +1016,7 @@ footer {
 }
 
 
-.head-menu {
-	position: relative;
-}
 
-.cart-window {
-	display: none;
-	position: absolute;
-	top: 30%;
-	right: 0;
-}
-.head-menu li:hover .cart-window  {
-	display: block;
-}
 
 
 
