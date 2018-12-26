@@ -250,38 +250,48 @@ h1 {
 .email {
 	background: #23b792;
 	color: #fff;
-	padding: 5rem 0;
+	padding: 3rem 0;
 	font-size: 2.5em;
 	font-style: italic;
-}
-.email p {
-	width: 53%;
-	font-size: 2.5rem;
 	text-align: center;
 }
-.email input {
-	padding: 10px 0 10px 30px;
-	width: 380px;
-	height: 52px;
-	border-radius: 7px 0 0 7px;
-	font-size: 1.5rem;
+.email p {
+	font-size: 2rem;
+	
+}
+.email input, .email textarea {
+	margin-bottom: 0.3rem;
+	padding: 5px 0 5px 15px;
+	width: 500px;
+	border-radius: 5px;
+	font-size: 1.3rem;
 	font-style: italic;
 	border: 1px solid #8c8a8a;
 }
+.email input {
+	height: 30px;
+}
+.email textarea {
+	height: 80px;
+	margin-top: 0.5rem;
+}
+.email input:focus, .email textarea:focus {
+	border: 1px solid #000;
+}
 .btn-email {
-	font-size: 1.5rem;
-	border-radius: 0 7px 7px 0;
+	font-size: 1.3rem;
+	border-radius: 5px;
 	padding: 10px 0;
 	width: 200px;
-	height: 74px;
-	background: #333;
+	height: 50px;
+	background: transparent;
 	font-style: italic;
-	color: #8c8a8a;
-	border: 1px solid #333;
+	color: #fff;
+	border: 1px solid #fff;
 }
 .btn-email:hover {
-	background: transparent;
-	color: #fff;
+	background: #333;
+	border: 1px solid #333;
 }
 /* section footer */
 footer {
@@ -856,13 +866,93 @@ footer {
 	color: #23b792;
 	background: transparent;
 }
+/* Page sale */
+.sale__item {
+	display: flex;
+	align-items: flex-start;
+	margin: 3rem 0;
+}
+.sale__item--second {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+.sale-desc {
+	margin: 4em 0 0 6em;
+	width: 60%;
+}
+.sale-desc h4, .sale-about h4 {
+	font-size: 2.625rem;
+	margin-bottom: 1rem;
+}
+.sale-desc p, .sale-about p, .sale-banner p {
+	margin: 2rem 3rem 2rem 0;
+	line-height: 1.5;
+}
+.sale-desc a, .sale-about a {
+	display: block;
+	background: #23b792;
+	padding: 1rem 3rem;
+	width: 20%;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #23b792;
+	transition: 0.5s;
+	font-size: 1.2rem;
+}
+.sale-desc a:hover, .sale-about a:hover {
+	background: transparent;
+	color: #23b792;
+}
+.sale-about {
+	width: 60%;
+	padding: 4em 0 0 15%;
+}
+.sale-banner {
+	background: url(../img/sale-banner.png);
+	background-repeat: no-repeat;
+	background-position: 120% 0;
+	background-color: #f8f9ef;
+	height: 300px;
+	overflow: hidden;
+	margin: 10rem 0;
+	padding: 3.5rem 0 0 10rem;
+	box-sizing: border-box;
+}
+.sale-banner h4 {
+	font-size: 2.3rem;
+	margin-bottom: 1rem;
+}
+.sale-banner a {
+	display: block;
+	background: transparent;
+	padding: 1rem 0;
+	width: 15%;
+	text-align: center;
+	color: #333;
+	border: 1px solid #333;
+	transition: 0.5s;
+	font-size: 1.2rem;
+}
+.sale-banner a:hover {
+	color: #fff;
+	background: #333;
+}
 
 
+.head-menu {
+	position: relative;
+}
 
-
-
-
-
+.cart-window {
+	display: none;
+	position: absolute;
+	top: 30%;
+	right: 0;
+}
+.head-menu li:hover .cart-window  {
+	display: block;
+}
 
 
 
