@@ -23,7 +23,16 @@
           <li><a href="#"><img src="img/icon/search.svg" alt="icon"></a></li>
           <li><a href="#"><img src="img/icon/user.svg" alt="icon"></a></li>
           <li><a href="#"><img src="img/icon/like.svg" alt="icon"></a></li>
-          <li><a href="#"><img src="img/icon/shopping-cart.svg" alt="icon"></a></li>
+          <li>
+            <a href="#"><img src="img/icon/shopping-cart.svg" alt="icon"></a>
+            <div class="cart-window">
+              <ul>
+                <li>Товар</li>
+                <li>Товар</li>
+                <li>Товар</li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
@@ -288,15 +297,20 @@
     </div>
   </section>
   <section class="email">
-    <div class="wrap flex">
+    <div class="wrap">
       <p>
-        Отправьте ваш адрес и мы обязательно с вами свяжемся
+        Оставьте ваш отзыв
       </p>
-      <img src="img/icon/arrow.svg" alt="arrow">
-      <div class="flex">
+      <form>
+        <input type="text" placeholder="Имя"><br>
+        <input type="email" placeholder="E-Mail"><br>
+        <textarea placeholder="Я довольна товаром..."></textarea><br>
+        <button class="btn-email" type="button">Send</button>
+      </form>
+      <!-- <div class="flex">
         <input type="email" name="email" placeholder="email.com">
         <button class="btn-email">send</button>
-      </div>
+      </div> -->
     </div>
   </section>
   <footer>
