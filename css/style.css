@@ -120,6 +120,7 @@ header {
 }
 .banner {
 	background: url(../img/banner1.png);
+	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
 	padding: 150px 0 0 300px;
@@ -954,6 +955,7 @@ footer {
 	display: flex;
 	align-items: flex-start;
 	justify-content: flex-end;
+	margin-bottom: 10rem;
 }
 .sale-desc {
 	margin: 4em 0 0 6em;
