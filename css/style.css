@@ -114,10 +114,6 @@ header {
     display: block;
     padding: 0.7em; 
 }
-.head-menu a:hover {
-    border-radius: 50%;
-    background: rgba(35, 183, 146, 0.25);
-}
 .banner {
 	background: url(../img/banner1.png);
 	background-size: cover;
